@@ -30,9 +30,8 @@ public class Sorter {
             numArray[min_idx] = numArray[i]; 
             numArray[i] = temp; 
         } 
-    }
-    
-    public static void sort(int array[]) {
-        insertionSort(array);
-    }
+    } 
+    public static void Sort(int array[]){
+        sel_sort(array);
+    }   
 }
